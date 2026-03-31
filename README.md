@@ -1,37 +1,39 @@
-# SageMaker Insurance Pricing Engine
+# Insurance Pricing Engine on AWS SageMaker
 
-End-to-End Modern Insurance Pricing Engine built on **AWS SageMaker**.
+**End-to-End Modern Insurance Pricing Pipeline** built on AWS SageMaker.
 
-### Goal
-Build an End-to-End Production Insurance Pricing Engine on AWS SageMaker that bridges traditional actuarial methods and modern AI/ML techniques.
+### Project Goal
+Build a production-ready insurance pricing engine that bridges traditional actuarial methods and modern AI/ML techniques.  
 
-### Tech Stack
-- **AWS SageMaker** (Pipelines, Training, Endpoints, Model Monitor)
-- Python, scikit-learn, TensorFlow
-- Streamlit (demo app)
-- Insurance pricing dataset (freMTPL2 — French Motor Third-Party Liability)
+Starting with **GLM** (my core expertise), then Random Forest → **XGBoost** (widely used in insurance) → Neural Networks (TensorFlow). All wrapped in a full SageMaker Pipeline with real-time inference, monitoring, and a Streamlit demo.
 
 ### Models Covered
-- Generalized Linear Models (GLM) — Poisson/Gamma for frequency & severity (industry standard)
-- Random Forest — Baseline tree ensemble
-- XGBoost — High-performance gradient boosting (widely used in modern insurance pricing)
-- Neural Networks (TensorFlow) — Deep learning upgrade
+- **Generalized Linear Models (GLM)** — Poisson/Gamma using statsmodels (industry standard for frequency & severity)
+- **Random Forest** — Simple baseline ensemble
+- **XGBoost** — High-performance gradient boosting (very common in modern insurance pricing)
+- **Neural Networks** — Deep learning upgrade with TensorFlow
+
+### Tech Stack
+- AWS SageMaker (Pipelines, Training Jobs, Real-time Endpoints, Model Monitor)
+- Python, scikit-learn, XGBoost, statsmodels, TensorFlow
+- Streamlit (interactive demo)
+- Dataset: freMTPL2 French Motor Third-Party Liability (public insurance dataset)
 
 ### Project Structure
 - `notebooks/` — EDA and experiments
 - `src/` — Reusable code (preprocessing, modeling, pipelines)
 - `pipelines/` — SageMaker Pipeline definitions
-- `deployment/` — Endpoint and monitoring config
-- `streamlit_app/` — Interactive demo
-- `data/` — Local raw data (gitignored)
+- `deployment/` — Endpoint configuration
+- `streamlit_app/` — Interactive demo app
 
 ### Progress
-- [ ] Repository setup
-- [ ] Dataset downloaded
-- [ ] EDA
-- [ ] Baseline modeling
+- [x] Repository setup & structure
+- [x] requirements.txt
+- [x] Dataset downloaded
+- [ ] EDA (01_eda.ipynb)
+- [ ] Baseline modeling (GLM + RF + XGBoost + NN)
 - [ ] SageMaker Pipeline
-- [ ] Deployment + Monitoring
-- [ ] Streamlit Demo
+- [ ] Real-time endpoint + monitoring
+- [ ] Streamlit demo
 
-Built by a Data Scientist pivoting from traditional GLM insurance pricing to production AI/ML.
+Built by a Data Scientist with 7+ years in insurance pricing (GLMs for bind, retention, and loss models) pivoting to Production / AI Data Science roles.
