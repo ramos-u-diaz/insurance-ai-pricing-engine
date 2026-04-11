@@ -1,2 +1,27 @@
-xgboost==1.7.6
-joblib==1.2.0
+# Core data science
+pandas>=2.0.0
+numpy>=1.24.0
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.0.0
+# Modeling
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+statsmodels>=0.14.0
+# SageMaker & AWS
+sagemaker>=2.200.0
+boto3>=1.34.0
+# Deep Learning
+tensorflow>=2.15.0
+# App & utilities
+streamlit>=1.28.0
+ipykernel>=6.0.0
+jupyter>=1.0.0
+# Utilities
+joblib>=1.3.0
+pyarrow>=12.0.0
+# SageMaker training container specific
+# (pinned versions for compatibility)
+# xgboost==1.7.6
+# joblib==1.2.0
