@@ -5,7 +5,7 @@
 ### Project Goal
 Build a production-ready insurance pricing engine that bridges traditional actuarial methods and modern AI/ML techniques.  
 
-Starting with **GLM** (my core expertise), then Random Forest → **XGBoost** (widely used in insurance) → Neural Networks (TensorFlow). All wrapped in a full SageMaker Pipeline with real-time inference, monitoring, and a Streamlit demo.
+Starting with **GLM**, then Random Forest → **XGBoost** (widely used in insurance) → Neural Networks (TensorFlow). All wrapped in a full SageMaker Pipeline with real-time inference, monitoring, and a Streamlit demo.
 
 ### Models Covered
 - **Generalized Linear Models (GLM)** — Poisson/Gamma using statsmodels (industry standard for frequency & severity)
