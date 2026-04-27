@@ -30,10 +30,10 @@ Starting with **GLM** (my core expertise), then Random Forest → **XGBoost** (w
 - [x] Repository setup & structure
 - [x] requirements.txt
 - [x] Dataset downloaded
-- [ ] EDA (01_eda.ipynb)
-- [ ] Baseline modeling (GLM + RF + XGBoost + NN)
-- [ ] SageMaker Pipeline
-- [ ] Real-time endpoint + monitoring
-- [ ] Streamlit demo
+- [x] EDA (01_eda.ipynb)
+- [x] Baseline modeling (GLM + RF + XGBoost + NN)
+- [x] SageMaker Pipeline
+- [x] Real-time endpoint + monitoring
+- [x] Streamlit demo
 
 Built by a Data Scientist with 7+ years in insurance pricing (GLMs for bind, retention, and loss models) pivoting to Production / AI Data Science roles.
